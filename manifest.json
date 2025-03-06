@@ -1,11 +1,24 @@
 {
   "manifest_version": 3,
-  "name": "keio autologin",
+  "name": "Keio Auto Login",
   "version": "1.0.0",
   "description": "慶應のログイン画面が表示されたら保存されている情報を使って、クリックせずともログインできます",
   "permissions": [
     "storage",
     "scripting"
+  ],
+  "option_page": ["setting.html"],
+  "host_permissions": [
+    "https://keio2024.okta.com/app/keio2024_keiojp_1/*",
+    "https://keio2024.okta.com/app/bookmark/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://keio2024.okta.com/app/keio2024_keiojp_1/*",
+        "https://keio2024.okta.com/app/bookmark/*"],
+      "js": ["login.js"]
+    }
   ],
   "icons": {
     "48": "images/icon-48.png",
