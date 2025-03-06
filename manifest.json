@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "keio autologin",
+  "version": "1.0.0",
+  "description": "慶應のログイン画面が表示されたら保存されている情報を使って、クリックせずともログインできます",
+  "permissions": [
+    "storage",
+    "scripting"
+  ],
+  "icons": {
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+}
