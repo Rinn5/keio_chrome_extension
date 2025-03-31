@@ -1,5 +1,5 @@
 /* 初回入力情報をchromeのローカルストレージに保存する */
-document.getElementById("save").addEventListener("click", function() {
+document.getElementById("setting-form").addEventListener("submit", function(e) {
   let username = document.getElementById("username").value;
   let password = document.getElementById("password").value;
 
