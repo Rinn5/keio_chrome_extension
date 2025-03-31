@@ -18,8 +18,7 @@
   },
   "option_page": ["setting.html"],
   "host_permissions": [
-    "https://keio2024.okta.com/app/keio2024_keiojp_1/*",
-    "https://keio2024.okta.com/app/bookmark/*"
+    "https://keio2024.okta.com/app/*"
   ],
   "content_scripts": [
     {
