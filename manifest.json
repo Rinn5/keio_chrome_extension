@@ -14,8 +14,8 @@
   },
   "action": {
     "default_icon": {
-      "16": "images/icon19.png",
-      "48": "images/icon38.png"
+      "19": "images/icon19.png",
+      "38": "images/icon38.png"
     },
     "default_popup": "first_setting.html",
     "default_title": "Keio Auto Login"
