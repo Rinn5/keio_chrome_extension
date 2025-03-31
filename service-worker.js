@@ -1,8 +1,8 @@
 chrome.runtime.onInstalled.addListener((details) => {
   chrome.action.setIcon({
     path: {
-      16: 'images/icon-16.png',
-      48: 'images/icon-48.png'
+      16: 'images/icon16.png',
+      48: 'images/icon48.png'
     }
   });
   if (details.reason ===  "install"){
@@ -15,8 +15,8 @@ chrome.runtime.onInstalled.addListener((details) => {
 chrome.tabs.onCreated.addListener((tab) => {
   chrome.action.setIcon({
     path: {
-      16: 'images/icon-16.png',
-      48: 'images/icon-48.png'
+      16: 'images/icon16.png',
+      48: 'images/icon48.png'
     }
   });
 });
