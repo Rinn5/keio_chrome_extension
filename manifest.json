@@ -11,14 +11,15 @@
     "default_icon": {
       "48": "./images/icon48.png"
     },
-    "default_popup": "first_setting.html"
+    "default_popup": "first_setting.html",
+    "default_title": "Keio Auto Login"
   },
   "background": {
     "service_worker": "./service-worker.js"
   },
-  "option_page": ["setting.html"],
+  "option_page": "setting.html",
   "host_permissions": [
-    "https://keio2024.okta.com/app/*"
+    "https://keio2024.okta.com/*"
   ],
   "content_scripts": [
     {
