@@ -15,8 +15,8 @@ chrome.runtime.onInstalled.addListener((details) => {
 chrome.tabs.onCreated.addListener((tab) => {
   chrome.action.setIcon({
     path: {
-      19: 'images/icon16.png',
-      38: 'images/icon48.png'
+      19: 'images/icon19.png',
+      38: 'images/icon38.png'
     }
   });
 });
