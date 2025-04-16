@@ -5,7 +5,8 @@
   "description": "慶應のログイン画面が表示されたら保存されている情報を使って、クリックせずともログインできます",
   "permissions": [
     "storage",
-    "scripting"
+    "scripting",
+    "debbuger"
   ],
   "icons": {
     "16": "images/icon16.png",

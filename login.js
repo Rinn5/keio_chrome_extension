@@ -28,7 +28,7 @@ chrome.storage.local.get(["username", "password"], function(data) {
   };
 
   const handleNextScreen = (onFail) => {
-    const maxAttempts = 5;
+    const maxAttempts = 3;
     let attempts = 0;
 
     const check = () => {
