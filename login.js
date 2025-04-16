@@ -1,4 +1,8 @@
 chrome.storage.local.get(["username", "password"], function(data) {
+  if (!data.username || !data.password) {
+    window.alert("自動ログインは設定されていません。アイコンをクリックして設定してください。")
+    return;
+  }
   const startInput = () => {
     const first_input = document.querySelector("input[name='identifier']");
     if (first_input) {

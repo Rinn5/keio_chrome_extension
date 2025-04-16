@@ -17,13 +17,13 @@
       "19": "images/icon19.png",
       "38": "images/icon38.png"
     },
-    "default_popup": "first_setting.html",
+    "default_popup": "setting.html",
     "default_title": "Keio Auto Login"
   },
   "background": {
     "service_worker": "./service-worker.js"
   },
-  "options_page": "first_setting.html",
+  "options_page": "setting.html",
   "host_permissions": [
     "https://keio2024.okta.com/*",
     "https://auth.keio.jp/idp/*"
