@@ -31,7 +31,8 @@
     {
       "matches": [
         "https://keio2024.okta.com/app/keio2024_keiojp_1/*",
-        "https://keio2024.okta.com/app/bookmark/*"],
+        "https://keio2024.okta.com/app/bookmark/*",
+        "https://auth.keio.jp/idp/*"],
       "js": ["login.js"]
     }
   ]
