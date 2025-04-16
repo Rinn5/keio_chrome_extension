@@ -7,7 +7,7 @@ document.getElementById("setting-form").addEventListener("submit", function(e) {
     username: username,
     password: password
   }, function() {
-    alert("設定を完了しました。もし入力情報に誤りがあるときは拡張機能のアイコンをクリックして変更できます。");
+    alert("設定完了しました。\n入力に誤りがあるときは拡張機能アイコンからいつでも変更できます");
     window.close();
   })
 });
