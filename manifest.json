@@ -25,7 +25,8 @@
   },
   "options_page": "first_setting.html",
   "host_permissions": [
-    "https://keio2024.okta.com/*"
+    "https://keio2024.okta.com/*",
+    "https://auth.keio.jp/idp/*"
   ],
   "content_scripts": [
     {
