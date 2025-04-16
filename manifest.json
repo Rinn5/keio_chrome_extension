@@ -2,11 +2,10 @@
   "manifest_version": 3,
   "name": "Keio Auto Login",
   "version": "1.0.0",
-  "description": "慶應のログイン画面が表示されたら保存されている情報を使って、クリックせずともログインできます",
+  "description": "保存された情報を使ってkeio.jpへログインを自動で行います。",
   "permissions": [
     "storage",
-    "scripting",
-    "debbuger"
+    "scripting"
   ],
   "icons": {
     "16": "images/icon16.png",
