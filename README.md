@@ -6,26 +6,28 @@
 
 # ファイル構成
 ```tree
-├── README.md # 現在閲覧中のファイル
-├── images # アイコン
+.
+├── README.md
+├── docs
+│   └── privacy_policy.md
+├── images
 │   ├── icon128.png
 │   ├── icon16.png
 │   ├── icon19.png
 │   ├── icon38.png
 │   └── icon48.png
-├── login.js # keio.jpにおけるログイン処理
-├── manifest.json # マニフェストファイル
-├── reference # chrome_web_store公開のためのpng, 制作物zip
+├── login.js
+├── manifest.json
+├── reference
 │   ├── assets
 │   │   ├── promotion_tile.png
 │   │   ├── thumbnail1.png
 │   │   └── thumbnail2.png
-│   ├── privacy_policy.md
 │   └── zip
 │       └── keio_auto_login.zip
 ├── service-worker.js
-├── setting.html # ユーザー情報入力用html
-└── setting.js # ユーザー情報処理用js
+├── setting.html
+└── setting.js
 ```
 
 
