@@ -4,8 +4,7 @@
   "version": "1.0.0",
   "description": "保存された情報を使ってkeio.jpへログインを自動で行います。",
   "permissions": [
-    "storage",
-    "scripting"
+    "storage"
   ],
   "icons": {
     "16": "images/icon16.png",
