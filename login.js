@@ -9,7 +9,7 @@ chrome.storage.local.get(["username", "password"], function(data) {
       first_input.value = data.username;
       first_input.dispatchEvent(new Event("input", { bubbles: true }));
       setTimeout(() => {
-        document.querySelector("input[value='次へ']").click();
+        document.querySelector("input[type='submit']").click();
       }, 300);
       waitForPassword();
     } else {
@@ -23,7 +23,7 @@ chrome.storage.local.get(["username", "password"], function(data) {
       second_input.value = data.password;
       second_input.dispatchEvent(new Event("input", { bubbles: true }));
       setTimeout(() => {
-        document.querySelector("input[value='確認']").click();
+        document.querySelector("input[type='submit']").click();
         setTimeout(handleNextScreen, 300);
       }, 300);
     } else {

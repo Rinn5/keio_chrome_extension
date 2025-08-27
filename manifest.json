@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Keio Auto Login",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "保存された情報を使ってkeio.jpへログインを自動で行います。",
   "permissions": [
     "storage"
